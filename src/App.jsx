@@ -7,8 +7,11 @@ function App() {
   return (
     <>
      <div className="for-white">
+
+
       <Content/>
       <Summary/>
+      
      </div>
     </>
   );
