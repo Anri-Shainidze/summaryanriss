@@ -1,0 +1,108 @@
+.sum {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  gap: 1rem;
+}
+.mokosok {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  padding: 1rem;
+  border-radius: 13px;
+  background: linear-gradient(0deg, #fdd8d8, #fac9c9),linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+  justify-content: space-between;
+}
+.sum-for {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.img-tuf {
+  gap: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.erti {
+  color: rgba(48, 59, 89, 1);
+}
+.roko {
+  color: rgba(255, 85, 85, 1);
+}
+.roko-first {
+  color: #ffb21e;
+}
+.roko-second {
+  color: hsla(166, 100%, 37%, 1);
+}
+.roko-third {
+  color: hsla(234, 85%, 45%, 1);
+}
+.formem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  padding: 1rem;
+  border-radius: 13px;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #fff5e1, #fff8ea),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+.forvis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  padding: 1rem;
+  border-radius: 13px;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #cacffd, #dbdffc),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+.forver {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  padding: 1rem;
+  border-radius: 13px;
+  justify-content: space-between;
+  background: linear-gradient(0deg, #eafdf9, #c2f7ea),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+h3 {
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #303b59;
+}
+.erti-first{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.second2{
+    color:gray;
+
+  }
+  button:hover {
+    background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  }
+button {
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  background: hsla(223, 30%, 27%, 1);
+  height: 45px;
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
